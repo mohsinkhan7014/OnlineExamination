@@ -1,0 +1,115 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--  <item name="android:windowBackground">@drawable/splash_screenbackground</item>  -->
+         <item name="android:windowNoTitle">true</item>
+         <item name="android:windowFullscreen">true</item>
+     </style>
+
+     <style name="AppTheme.NoActionBar">
+         <item name="windowActionBar">false</item>
+         <item name="windowNoTitle">true</item>
+     </style>
+
+     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="TextAppearance"/>
+
+
+    <style name="TextAppearance_EditText">
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginLeft">5px</item>
+        <item name="android:layout_marginRight">5px</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40px</item>
+    </style>
+
+    <style name="TextAppearance_ok_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:layout_marginLeft">1sp</item>
+    </style>
+
+    <style name="traverse_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">1sp</item>
+    </style>
+
+    <style name="TextAppearance_cancel_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginRight">10dip</item>
+    </style>
+
+
+    <style name="TextAppearance_change_password_change_password_button">
+        <item name="android:paddingLeft">25sp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20sp</item>
+        <item name="android:layout_marginLeft">5sp</item>
+        <item name="android:layout_marginRight">5sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance_change_password_ok_button">
+        <item name="android:paddingLeft">25sp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20sp</item>
+        <item name="android:layout_marginLeft">5sp</item>
+        <item name="android:layout_marginRight">5sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance_set_password_ok_button">
+        <item name="android:paddingLeft">25sp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20sp</item>
+        <item name="android:layout_marginLeft">5sp</item>
+        <item name="android:layout_marginRight">5sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance_set_password_set_password_button">
+        <item name="android:paddingLeft">25sp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20sp</item>
+        <item name="android:layout_marginLeft">5sp</item>
+        <item name="android:layout_marginRight">5sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance_validate_password_change_password_button">
+        <item name="android:paddingLeft">25sp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20sp</item>
+        <item name="android:layout_marginLeft">5sp</item>
+        <item name="android:layout_marginRight">5sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance_email_main_content_image_view">
+        <item name="android:paddingLeft">3sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+
+
+
+
+
+</resources>

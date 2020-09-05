@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        />
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Online Examination Center"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:gravity="center_horizontal" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:singleLine="true"
+
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:textColor="#ff4500"
+        android:text="Welcome to OLEC, here you can test your android technical skills "
+        android:focusable="true"
+        android:focusableInTouchMode="true" android:freezesText="true">
+    </TextView>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:scrollbarStyle="outsideInset"
+        android:fillViewport="true" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/question_view_type">
+
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Please select the Technology for view" android:textStyle="bold" />
+
+                <RadioButton android:id="@+id/radio_view_question_android"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Android" />
+                <RadioButton android:id="@+id/radio_view_question_java"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Java" />
+                <RadioButton android:id="@+id/radio_view_question_iPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="iPhone" />
+                <RadioButton android:id="@+id/radio_view_question_ccpp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="C/C++" />
+            </RadioGroup>
+            <Button
+                android:id="@+id/question_view_button"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="Question View"
+                android:clickable="true" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
